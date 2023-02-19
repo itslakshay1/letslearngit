@@ -39,3 +39,17 @@ int main()
 
 	return 0;
 }
+
+// I want the difference between these two values as a positive integer
+int x = 7
+int y = 3
+int diff;
+// This means you have to find the largest number first 
+// before making the subtract, to keep the answer positive
+if (x>y) { 
+     diff = (x-y);
+} else if (y>x) {
+     diff = (y-x);
+} else if (x==y) {
+    diff = 0;
+}
